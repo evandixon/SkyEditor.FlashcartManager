@@ -1,4 +1,5 @@
 ﻿Imports SkyEditor.Core.ConsoleCommands
+Imports SkyEditor.FlashcartManager.NDS
 
 Namespace ConsoleCommands
     Public Class Flashcart_Open

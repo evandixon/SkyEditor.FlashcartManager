@@ -67,8 +67,23 @@ Public Class Library
     End Sub
 
     Public Property ID As Guid
+
+    ''' <summary>
+    ''' Name of the library
+    ''' </summary>
+    ''' <returns></returns>
     Public Property Name As String
+
+    ''' <summary>
+    ''' Path the library stores items, relative to the <see cref="RootPath"/>
+    ''' </summary>
+    ''' <returns></returns>
     Public Property RelativePath As String
+
+    ''' <summary>
+    ''' Root path of the device on which the library is located.
+    ''' </summary>
+    ''' <returns></returns>
     Protected Property RootPath As String
 
     ''' <summary>
